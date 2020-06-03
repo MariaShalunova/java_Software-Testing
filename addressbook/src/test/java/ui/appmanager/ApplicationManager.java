@@ -38,11 +38,15 @@ public class ApplicationManager {
         return groupHelper;
     }
 
-    public NavigationHelper getNavigationHelper() {
+    public NavigationHelper getNavigationHelper () {
         return navigationHelper;
     }
 
-    public ContactHelper getContactHelper() {
+    public ContactHelper getContactHelper () {
         return contactHelper;
+    }
+
+    public SessionHelper getSessionHelper () {
+        return sessionHelper;
     }
 }
