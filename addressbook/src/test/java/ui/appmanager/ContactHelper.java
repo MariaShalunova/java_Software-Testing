@@ -42,7 +42,7 @@ public class ContactHelper extends HelperBase{
         select(By.name("aday"), contactData.getAday());
         select(By.name("amonth"), contactData.getAmonth());
         type(By.name("ayear"), contactData.getAyear());
-        select(By.name("new_group"), contactData.getGroup());
+        //select(By.name("new_group"), contactData.getGroup());
         type(By.name("address2"), contactData.getAddress2());
         type(By.name("phone2"), contactData.getPhone2());
         type(By.name("notes"), contactData.getNotes());
@@ -54,5 +54,13 @@ public class ContactHelper extends HelperBase{
 
     public void selectGroup() {
         click(By.name("selected[]"));
+    }
+
+    public void initContactModification() {
+        click(By.xpath("//img[@alt='Edit']"));
+    }
+
+    public void submitContactModification() {
+        click(By.name("update"));
     }
 }
