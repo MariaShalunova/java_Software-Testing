@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import ui.model.ContactData;
 import ui.tests.TestBase;
 
-public class ContractModificationTests extends TestBase {
+public class ContactModificationTests extends TestBase {
 
     @Test
     public void testContractModification() {

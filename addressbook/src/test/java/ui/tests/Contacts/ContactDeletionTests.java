@@ -3,7 +3,7 @@ package ui.tests.Contacts;
 import org.testng.annotations.Test;
 import ui.tests.TestBase;
 
-public class ContractDeletionTests extends TestBase {
+public class ContactDeletionTests extends TestBase {
 
     @Test
     public void testContractDeletion () throws Exception{
