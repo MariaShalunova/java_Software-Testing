@@ -1,4 +1,4 @@
-package Groups;
+package ui.model;
 
 public class GroupData {
     private final String name;

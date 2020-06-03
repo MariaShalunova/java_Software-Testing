@@ -1,4 +1,4 @@
-package Contacts;
+package ui.model;
 
 public class ContactData {
     private final String firstname;
