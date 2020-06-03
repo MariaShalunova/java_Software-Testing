@@ -34,6 +34,10 @@ public class ApplicationManager {
         wd.quit();
     }
 
+    public void closeAlert() {
+        wd.switchTo().alert().accept();
+    }
+
     public GroupHelper getGroupHelper() {
         return groupHelper;
     }
