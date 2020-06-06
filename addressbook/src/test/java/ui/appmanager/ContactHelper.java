@@ -48,11 +48,11 @@ public class ContactHelper extends HelperBase{
         type(By.name("notes"), contactData.getNotes());
     }
 
-    public void deleteSelectedGroup() {
+    public void deleteSelectedContact() {
         click(By.xpath("//input[@value='Delete']"));
     }
 
-    public void selectGroup() {
+    public void selectContact() {
         click(By.name("selected[]"));
     }
 
@@ -62,5 +62,7 @@ public class ContactHelper extends HelperBase{
 
     public void submitContactModification() {
         click(By.name("update"));
+        click(By.xpath("//img[@alt='Details']"));
+        click((By.xpath("(//img[@alt='Details'])[2]")));
     }
 }
