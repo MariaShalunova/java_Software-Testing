@@ -62,7 +62,5 @@ public class ContactHelper extends HelperBase{
 
     public void submitContactModification() {
         click(By.name("update"));
-        click(By.xpath("//img[@alt='Details']"));
-        click((By.xpath("(//img[@alt='Details'])[2]")));
     }
 }
