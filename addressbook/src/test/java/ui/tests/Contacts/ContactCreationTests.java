@@ -15,7 +15,7 @@ public class ContactCreationTests extends TestBase {
                 "mobile", "qwe", "qwe", "qwe", "qwe",
                 "qwe", "qwe", "18", "February",
                 "1222", "29", "January", "1234",
-                "test", "qweqwe", "qweqwe", "qweqwe"));
+                "test", "qweqwe", "qweqwe", "qweqwe"), true);
         app.getContactHelper().submitContactCreation();
         app.getContactHelper().returnToContactsPage();
     }
