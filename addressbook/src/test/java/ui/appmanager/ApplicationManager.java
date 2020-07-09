@@ -44,7 +44,7 @@ public class ApplicationManager {
     }
 
     public void stop() {
-        wd.findElement(By.linkText("Logout")).click();
+        wd.findElement(By.cssSelector("[name='logout'] > a")).click();
         wd.quit();
     }
 
